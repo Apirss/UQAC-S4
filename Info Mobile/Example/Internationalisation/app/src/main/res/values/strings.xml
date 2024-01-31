@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Salutation internationale</string>
+    <string name="salutation">Bonjour à toi</string>
+    <string name="message">Bienvenue sur la Terre (Message par defaut d\'ANDROID)</string>
+    <string name="citoyen">Un citoyen</string>
+</resources>

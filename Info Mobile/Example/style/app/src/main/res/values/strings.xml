@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Salutation internationale</string>
+    <string name="salutation">Bonjour à toi</string>
+    <string name="message">Bienvenue sur la Terre</string>
+    <string name="citoyen">Un citoyen</string>
+    <string name="ne_pas_cliquer_ici">Ne pas cliquer ici</string>
+
+</resources>

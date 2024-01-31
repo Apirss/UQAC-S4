@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NitFlex</string>
+    <string name="Welcome_to_NitFlex">Bienvenue sur NitFlex</string>
+    <string name="Press_Start">Ce film n\'est pas disponible !</string>
+    <string name="Start">Commencer</string>
+    <string name="menu_very_useful">Menu Très Utile</string>
+    <string name="menu_settings">Paramètres</string>
+</resources>

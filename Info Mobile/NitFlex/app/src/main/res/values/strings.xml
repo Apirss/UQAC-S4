@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NitFlex</string>
+    <string name="Welcome_to_NitFlex">Welcome to NitFlex</string>
+    <string name="Press_Start">Press Start for our unique video</string>
+    <string name="Start">Start</string>
+    <string name="menu_very_useful">Very Useful Menu</string>
+    <string name="menu_settings">Settings</string>
+</resources>

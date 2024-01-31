@@ -1,0 +1,26 @@
+<resources>
+    <style name="UQAC" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#719013</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="UQAC.Bouton">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="UQAC.Bouton.Magique">
+        <item name="android:textColor">#dee118bc</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:onClick">faireMagie</item>
+        <item name="android:text">!!!!!</item>
+    </style>
+
+    <style name="UQAC.Image">
+        <item name="android:layout_width">200sp</item>
+        <item name="android:layout_height">200sp</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Un gros salut du Québec</string>
+    <string name="salutation">Hey.. salut!</string>
+    <string name="message">Veux-tu allez faire du traineau à chiens?</string>
+    <string name="citoyen">Un québécois</string>
+</resources>

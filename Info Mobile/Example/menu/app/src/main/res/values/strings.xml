@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="menus">Menus</string>
+    <string name="menu_preferences">menu des préférences</string>
+    <string name="menu_etudiants">menu des étudiants</string>
+    <string name="menu_apropos">menu à propos</string>
+</resources>

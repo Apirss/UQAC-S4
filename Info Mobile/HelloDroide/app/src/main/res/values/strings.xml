@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello mon projet</string>
+    <string name="hello_world">Hello Android</string>
+    <string name="texte_bouton_hello">Dire hello</string>
+</resources>
