@@ -1,3 +1,0 @@
-C:/Users/coMar/Documents/UQAC/POO/TD2/Vetement/cmake-build-debug/CMakeFiles/Vetement.dir
-C:/Users/coMar/Documents/UQAC/POO/TD2/Vetement/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/coMar/Documents/UQAC/POO/TD2/Vetement/cmake-build-debug/CMakeFiles/rebuild_cache.dir

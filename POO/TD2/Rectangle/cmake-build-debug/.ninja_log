@@ -1,6 +1,0 @@
-# ninja log v5
-8	526	7280199393759655	CMakeFiles/TD2.dir/rectangle.cpp.obj	dffb01674803ce97
-376	483	7280139810725414	TD2.exe	7b2df805aa24a695
-2	355	7280201807509758	build.ninja	cc0a6a1ce78c5864
-3	477	7280202343439170	CMakeFiles/TD2.dir/rational.cpp.obj	2bc01efa27b4e2eb
-5	463	7280228363933095	CMakeFiles/TD2.dir/rational.cpp.obj	2bc01efa27b4e2eb

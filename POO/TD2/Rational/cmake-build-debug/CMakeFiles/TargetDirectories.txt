@@ -1,3 +1,0 @@
-C:/Users/coMar/Documents/UQAC/POO/TD2/Rational/cmake-build-debug/CMakeFiles/Rational.dir
-C:/Users/coMar/Documents/UQAC/POO/TD2/Rational/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/coMar/Documents/UQAC/POO/TD2/Rational/cmake-build-debug/CMakeFiles/rebuild_cache.dir
