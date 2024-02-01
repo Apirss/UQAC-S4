@@ -31,8 +31,8 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [ ] - Examen 2
 - [ ] - Projet Final
 ## Informatique mobile - 8INF257
-- [X] - TD 1
-- [X] - TP 1
+- [X] - [TD 1](./Info%20Mobile/HelloDroide)
+- [X] - [TP 1](./Info%20Mobile/NitFlex) (?/20)
 - [ ] - Examen 1
 - [ ] - Examen 2
 - [ ] - Projet Final
