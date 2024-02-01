@@ -24,6 +24,10 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [ ] - Examen 2
 - [ ] - Projet Final
 ## Programmation orientée objet - 8PRO128
+- Cours
+  - [ ] Chapitre 1
+  - [ ] Chapitre 2
+  - [ ] Chapitre 3
 - [X] - [TP1](./POO/TP1) (?/20)
 - [ ] - Examen 1
 - [ ] - TP 2
