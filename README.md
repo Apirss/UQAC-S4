@@ -32,7 +32,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [ ] - Projet Final
 ## Informatique mobile - 8INF257
 - [X] - TD 1
-- [ ] - TP 1
+- [X] - TP 1
 - [ ] - Examen 1
 - [ ] - Examen 2
 - [ ] - Projet Final
