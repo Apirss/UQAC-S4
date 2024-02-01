@@ -16,14 +16,4 @@ class Article{
 		void afficher() const;
 };
 
-class ArticleEnSolde : public Article{
-private:
-    int remise;
-	public:
-        ArticleEnSolde(string n, double p, int r);
-		void setRemise(int r);
-        double getPrix() const  ;
-        void afficher() const;
-};
-
 #endif

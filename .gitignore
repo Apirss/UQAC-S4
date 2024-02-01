@@ -1,4 +1,5 @@
 .idea/
 .gradle/
 cmake*/
+cmake-build-debug/
 gradle/
