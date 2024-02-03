@@ -31,7 +31,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD1](./POO/TD1)
 - [X] - [TP1](./POO/TP1) (?/20)
 - [X] - [TD2](./POO/TD2)
-- [ ] - TD3
+- [X] - [TD3](./POO/TD3)
 - [ ] - Examen 1
 - [ ] - TP 2
 - [ ] - TP3
