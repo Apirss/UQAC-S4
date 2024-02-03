@@ -1,0 +1,7 @@
+Client (ID Client, Nom, Prénom, Adresse, Code Postal, Ville, Num. Téléphone)
+
+    Clé primaire: ID Client
+
+Article (ID Article, Designation, Prix unitaire)
+
+    Clé primaire: ID Article
