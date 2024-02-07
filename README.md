@@ -5,7 +5,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 ## Calcul Avancé - 8MAP107
 - [X] - [Série 1](./Calcul%20Avancé/Remise/Série%201.pdf) (1/1)
 - [X] - [Série 2](./Calcul%20Avancé/Remise/Série%202.pdf) (1/1)
-- [X] - [Série 3](./Calcul%20Avancé/Remise/Série%203.pdf) (?/1)
+- [X] - [Série 3](./Calcul%20Avancé/Remise/Série%203.pdf) (1/1)
 - [ ] - Examen 1 (?/100)
 - [ ] - Série 4 (?/1)
 - [ ] - Série 5 (?/1)
