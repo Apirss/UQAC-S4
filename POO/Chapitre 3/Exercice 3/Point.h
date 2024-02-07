@@ -16,11 +16,15 @@ private:
     int x;
     int y;
 public:
-    Point();
-    Point(int _x, int _y) : x(_x), y(_y){};
-    void afficher()
+    Point()
     {
-        cout << "Coordonnées du Point : X = " << x << "Y = " << y << endl;
+        x = 0;
+        y = 0;
+    };
+    Point(int _x, int _y) : x(_x), y(_y){};
+    void afficher() const
+    {
+        cout << "Coordonnées du Point : X = " << x << " ; Y = " << y << endl;
     }
 };
 

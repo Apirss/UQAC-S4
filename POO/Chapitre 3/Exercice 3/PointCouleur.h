@@ -15,8 +15,9 @@ using namespace std;
 class PointCouleur : virtual public Point, public Couleur
 {
 public:
-    PointCouleur();
+    PointCouleur(){Point(), Couleur();};
     PointCouleur(int _x, int _y, string n) : Point(_x, _y), Couleur(n){};
+
     void afficher()
     {
         Point::afficher();

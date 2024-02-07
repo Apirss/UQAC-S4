@@ -16,9 +16,9 @@ private:
 public:
     Masse();
     Masse(int p): poids(p){};
-    void afficher()
+    void afficher() const
     {
-        cout << "La Masse a pour poids :" << poids << endl;
+        cout << "La Masse a pour poids : " << poids << endl;
     }
 };
 

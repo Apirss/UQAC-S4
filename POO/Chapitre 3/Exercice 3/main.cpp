@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    //PointColMasse pcm : PointMasse(0, 0, 100), PointCouleur(0, 0, "Orange");
-    //pcm.afficher();
+    PointColMasse pcm = PointColMasse(12, 100, 100, "Orange");
+    pcm.afficher();
     return 0;
 }

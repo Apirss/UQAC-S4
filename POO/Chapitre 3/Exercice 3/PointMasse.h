@@ -15,7 +15,7 @@ using namespace std;
 class PointMasse : virtual public Point, public Masse
 {
 public:
-    PointMasse();
+    PointMasse() {Point(), Masse();};
     PointMasse(int _x, int _y, int p) : Point(_x, _y), Masse(p){};
     void afficher()
     {

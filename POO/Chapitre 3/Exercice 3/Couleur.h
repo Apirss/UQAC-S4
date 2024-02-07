@@ -15,7 +15,7 @@ class Couleur
 private:
     string name;
 public:
-    Couleur();
+    Couleur(){name = "None";};
     Couleur(string n) : name(n){};
     void afficher()
     {

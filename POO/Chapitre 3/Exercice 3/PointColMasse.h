@@ -14,8 +14,8 @@ using namespace std;
 class PointColMasse : public PointMasse, public PointCouleur
 {
 public:
-    PointColMasse();
-    PointColMasse(int _x, int _y, int p, string n) : PointMasse(_x, _y, p), PointCouleur(_x, _y, n){};
+    PointColMasse(){PointMasse(); PointCouleur();};
+    PointColMasse(int _x, int _y, int p, string n) : Point(_x, _y), PointMasse(_x, _y, p), PointCouleur(_x, _y, n){};
     void afficher()
     {
         Point::afficher();
