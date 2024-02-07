@@ -1,0 +1,27 @@
+Examen 1 - POO
+
+- Définir Encapsulation, Héritage, Polymorphisme
+- Référence et Pointeur
+
+
+- Les accès et caractéristiques d'une classe (avantage de l'encapsulation) -> Constructeurs, Destructeur
+- This
+- Accesseurs et Mutateurs
+- Membres statique et fonctions statiques
+- Objets Constants
+- Membres mutables
+- Fonctions amies
+- Surdéfinition des fonctions
+- Opérateurs Surchargés
+
+
+- Héritage simple
+- Classe dérivée
+- Protections
+- Redéfinition des membres
+- Constructeurs et Destructeurs
+- Récap
+- Opérateur Surdéfinition
+
+Il y aura pas :
+Polymorphisme, Allocation Mémoire, Objets Membres, Héritage Multiple
