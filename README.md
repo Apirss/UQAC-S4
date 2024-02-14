@@ -17,7 +17,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [ ] - Série 10 (?/1)
 - [ ] - Examen 3 (?/100)
 ## Introduction aux bases de données - 8TRD151
-- [ ] - TP 1
+- [X] - [TP 1](./Intro%20DB/TP1)
 - [X] - [TD1](./Intro%20DB/TD1)
 - [ ] - Examen 1
 - [ ] - TP2
