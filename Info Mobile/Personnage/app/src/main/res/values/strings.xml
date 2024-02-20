@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Personnage</string>
+    <string name="mage">Mage</string>
+    <string name="guerrier">Guerrier</string>
+    <string name="description">Le personnage selectionné</string>
+    <string name="SaveButton">Sauvegarder</string>
+    <string name="NewButton">Nouveau</string>
+    <string name="ResetButton">Réinitialiser</string>
 </resources>
