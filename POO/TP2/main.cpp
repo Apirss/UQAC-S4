@@ -38,6 +38,9 @@ int main()
     DateH j1 = DateH(1, 1, 2020, 0, 0, 0);
     DateH j2 = DateH(31, 12, 2019, 23, 59, 59);
     cout << "J1 > J2 : " << (j1 > j2) << endl;
-    
+
+    Heure hj1 = j1;
+    Heure hj2 = j2;
+    cout << "HJ1 > HJ2 : " << (hj1 > hj2) << endl;
     return 0;
 }
