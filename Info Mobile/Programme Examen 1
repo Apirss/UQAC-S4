@@ -1,2 +1,21 @@
 Examen Théorique sur papier.
-Très peu de code.
+Très peu voir pas de code.
+Un peu de par coeur mais pas trop
+Code à lire
+XML à lire
+Code fourni sans trop de piège sauf si préciser dans la question : Trouver l'erreur.
+115 élèves : 7 pages de question, 4 pages de code -> Bcp de choix de réponses, peu de texte à écrire.
+
+
+Partie Manifest -> Questions
+Fichier de ressources
+Activité (OnCreate, SetContentView etc)
+Internationalisation, style thème -> Savoir expliquer. ex : Changer la langue. (demi page de développement : Question ouverte explicative)
+Toast (Expliquez pourquoi un toast ne déclenche pas le cycle de vie ?)
+
+Partie layout et widgets -> Schématiser une interface à partir du code. : Base
+Widgets (Largeur, hauteur, match_parent, wrap_content) pas de par coeur.
+Exemples de code évenementiel.
+Questions de modifications : Que se passe-t-il si ?
+
+Notifications : Savoir expliquer ce que c'est, identifier les caractéristiques

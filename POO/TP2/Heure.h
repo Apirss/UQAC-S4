@@ -55,7 +55,7 @@ public:
             return false;
     }
 
-    void affiche() const
+    virtual void affiche() const
     {
         if(heure < 10)
             cout << setw(2) << setfill('0') << heure << ":";
@@ -68,7 +68,7 @@ public:
             cout << minute << ":";
 
         if(seconde < 10)
-            cout << setw(2) << setfill('0') << seconde << ":";
+            cout << setw(2) << setfill('0') << seconde << endl;
         else
             cout << seconde << endl;
     }

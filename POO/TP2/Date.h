@@ -24,80 +24,46 @@ public:
         else
             mois = 1;
 
-        if ((a % 4 == 0 && a % 100 != 0) || (a % 400 == 0))
-        {
-            switch (m)
-            {
-                case 1:
-                case 3:
-                case 5:
-                case 7:
-                case 8:
-                case 10:
-                case 12: {
-                    if (j >= 1 && j <= 31)
-                        jour = j;
-                    else
-                        jour = 1;
-                    break;
+        switch(m) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12: {
+                if (j >= 1 && j <= 31)
+                    jour = j;
+                else
+                    jour = 1;
+                break;
+            }
+            case 4:
+            case 6:
+            case 9:
+            case 11: {
+                if (j >= 1 && j <= 30)
+                    jour = j;
+                else {
+                    cout << "Wrong Date" << endl;
+                    jour = 0;
                 }
-                case 4:
-                case 6:
-                case 9:
-                case 11:
-                {
-                    if (j >= 1 && j <= 30)
-                        jour = j;
-                    else
-                        jour = 1;
-                    break;
-                }
-                case 2:
-                {
-                    if (j >= 1 && j <= 29)
-                        jour = j;
-                    else
-                        jour = 1;
+                break;
+            }
+            case 2: {
+                if (j >= 1 && j <= ((a % 4 == 0 && a % 100 != 0) || (a % 400 == 0) ? 29 : 28))
+                    jour = j;
+                else {
+                    cout << "Wrong Date" << endl;
+                    jour = 0;
                 }
             }
         }
-        else
-        {
-            switch (m)
-            {
-                case 1:
-                case 3:
-                case 5:
-                case 7:
-                case 8:
-                case 10:
-                case 12: {
-                    if (j >= 1 && j <= 31)
-                        jour = j;
-                    else
-                        jour = 1;
-                    break;
-                }
-                case 4:
-                case 6:
-                case 9:
-                case 11:
-                {
-                    if (j >= 1 && j <= 30)
-                        jour = j;
-                    else
-                        jour = 1;
-                    break;
-                }
-                case 2:
-                {
-                    if (j >= 1 && j <= 28)
-                        jour = j;
-                    else
-                        jour = 1;
-                }
-            }
-        }
+    }
+
+    void affiche() const
+    {
+        cout << "Date : " << jour << "/" << mois << "/" << année << endl;
     }
 };
 #endif //TP2_DATE_H
