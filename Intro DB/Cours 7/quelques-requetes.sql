@@ -1,6 +1,13 @@
 -- Insérez vos informations personnelles dans la table Etudiant
+Insert into etudiant (id_etudiant,nom,prenom,adresse_courriel,telephone)
+Values (44444,"CW","Marco","ouioui@gmail.com","+336123244");
 
-
+Select 
+	id_etudiant,nom,prenom,adresse_courriel,telephone
+From 
+	etudiant
+where 
+	prenom = "Marco";
 -- Ajoutez un camarade de votre choix dans la table Etudiant (mais pas son numéro de téléphone)
 
 
