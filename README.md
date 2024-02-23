@@ -9,7 +9,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - Examen 1 (58/100 (68/100 with bonus))
 - [X] - [Examen 1 - Bonus](./Calcul%20Avancé/Examen%201%20-%20Bonus) (10/10)
 - [X] - [Série 4](./Calcul%20Avancé/Remise/Série%204.pdf) (?/1)
-- [ ] - Série 5 (?/1)
+- [X] - [Série 5](./Calcul%20Avancé/Remise/Série%205.pdf) (?/1)
 - [ ] - Série 6 (?/1)
 - [ ] - Examen 2 (?/100)
 - [ ] - Série 7 (?/1)
@@ -36,14 +36,14 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD3](./POO/TD3)
 - [X] - [TD4](./POO/TD4)
 - [X] - Examen 1 (?/100)
-- [ ] - TP 2
+- [ ] - [TP 2](./POO/TP2) (?/10)
 - [ ] - TP3
 - [ ] - Examen 2
 - [ ] - Projet Final
 ## Informatique mobile - 8INF257
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
 - [X] - [TP 1](./Info%20Mobile/NitFlex) (?/20)
-- [ ] - TP 2
+- [ ] - [TP 2](./Info%20Mobile/Personnage) 
 - [ ] - Examen 1
 - [ ] - TP 3
 - [ ] - Examen 2
