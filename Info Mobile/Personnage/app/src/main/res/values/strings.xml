@@ -6,4 +6,13 @@
     <string name="SaveButton">Sauvegarder</string>
     <string name="NewButton">Nouveau</string>
     <string name="ResetButton">Réinitialiser</string>
+    <string name="Toggle_stats">Activer la modification des statisitques</string>
+    <string name="Nom">Nom :</string>
+    <string name="Classe">Classe :</string>
+    <string name="PV">PV :</string>
+    <string name="CA">CA :</string>
+    <string name="Damage">Damage :</string>
+    <string name="MagiePTS">Points de Magie :</string>
+    <string name="ClasseBon">Le personnage est bon :</string>
+    <string name="ClasseBad">Le personnage est mauvais :</string>
 </resources>

@@ -11,6 +11,7 @@
         android:orientation="horizontal">
 
         <RadioGroup
+            android:id="@+id/choix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -47,21 +48,143 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:text="@string/SaveButton"/>
+            android:textSize="12sp"
+            android:text="@string/SaveButton"
+            android:onClick="save"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:text="@string/NewButton"/>
+            android:textSize="12sp"
+            android:text="@string/NewButton"
+            android:onClick="newProf"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:layout_margin="5dp"
-            android:text="@string/ResetButton"/>
-
+            android:textSize="12sp"
+            android:text="@string/ResetButton"
+            android:onClick="reset"/>
     </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/toggle_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/Toggle_stats"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Nom"
+                android:textSize="20sp"
+                android:textColor="#6750a4"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nom_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapCharacters"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Classe"
+                android:textSize="20sp"
+                android:textColor="#6750a4"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/classe_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Switch
+                android:id="@+id/classe_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ClasseBon"
+                android:textOn="@string/ClasseBad"
+                android:textOff="@string/ClasseBon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PV"
+                android:textSize="20sp"
+                android:textColor="#6750a4"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/pv_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CA"
+                android:textSize="20sp"
+                android:textColor="#6750a4"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ca_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Damage"
+                android:textSize="20sp"
+                android:textColor="#6750a4"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/damage_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <LinearLayout
+                android:id="@+id/magiestuff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/MagiePTS"
+                    android:textSize="20sp"
+                    android:textColor="#6750a4"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/magie_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
 
 </LinearLayout>
