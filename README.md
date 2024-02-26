@@ -37,20 +37,20 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD3](./POO/TD3)
 - [X] - [TD4](./POO/TD4)
 - [X] - Examen 1 (?/100)
-- [ ] - [TP 2](./POO/TP2) (?/10)
+- [X] - [TP 2](./POO/TP2) (?/10)
 - [ ] - TP3
 - [ ] - Examen 2
 - [ ] - Projet Final
 ## Informatique mobile - 8INF257
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
 - [X] - [TP 1](./Info%20Mobile/NitFlex) (?/20)
-- [ ] - [TP 2](./Info%20Mobile/Personnage) 
+- [X] - [TP 2](./Info%20Mobile/Personnage) 
 - [ ] - Examen 1
 - [ ] - TP 3
 - [ ] - Examen 2
 - [ ] - Projet Final
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
-- [ ] - TP1
+- [X] - [TP1](./Cybersécurité/TP1)
 - [ ] - TP2
 - [ ] - TP3
 - [ ] - Examen 1
