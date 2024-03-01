@@ -10,7 +10,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [Examen 1 - Bonus](./Calcul%20Avancé/Examen%201%20-%20Bonus) (10/10)
 - [X] - [Série 4](./Calcul%20Avancé/Remise/Série%204.pdf) (1/1)
 - [X] - [Série 5](./Calcul%20Avancé/Remise/Série%205.pdf) (?/1)
-- [X] - [Série 6](./Calcul%20Avancé/Remise/Série%206.pdf) (?/1)
+- [X] - [Série 6](./Calcul%20Avancé/Remise/Serie_6.pdf) (?/1)
 - [ ] - Examen 2 (?/100)
 - [ ] - Série 7 (?/1)
 - [ ] - Série 8 (?/1)
