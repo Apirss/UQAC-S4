@@ -45,7 +45,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
 - [X] - [TP 1](./Info%20Mobile/NitFlex) (?/20)
 - [X] - [TP 2](./Info%20Mobile/Personnage) (?/20)
-- [ ] - Examen 1
+- [X] - Examen 1
 - [ ] - TP 3
 - [ ] - Examen 2
 - [ ] - Projet Final
