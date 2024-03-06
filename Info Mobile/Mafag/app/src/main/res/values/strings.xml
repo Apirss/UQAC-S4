@@ -13,4 +13,5 @@
     <string name="Google">Google</string>
     <string name="GoogleLink">https://www.google.com/</string>
     <string name="OpenMafag">Ouvrir le lien</string>
+    <string name="Notifier">Notifier</string>
 </resources>
