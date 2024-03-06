@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SuperApp"
+        android:background="@color/orange"/>
+
+    <Button
+        android:layout_gravity="top|center_horizontal"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Choix"
+        android:onClick="mafag"/>
+
+    <TextView
+        android:id="@+id/ChoiceName"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Microsoft"
+        android:background="@drawable/border" />
+
+    <TextView
+        android:id="@+id/ChoiceLink"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MicrosoftLink"
+        android:background="@drawable/border"/>
+
+    <Button
+        android:layout_gravity="top|center_horizontal"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/OpenMafag"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mafag</string>
+    <string name="SuperApp">Bienvenue dans la super app MAFAG</string>
+    <string name="Choix">Fais ton choix (Pas Apple c\'est nul)</string>
+    <string name="Microsoft">Microsoft</string>
+    <string name="MicrosoftLink">https://www.microsoft.com/</string>
+    <string name="Apple">Apple</string>
+    <string name="AppleLink">https://www.apple.com/</string>
+    <string name="Facebook">Facebook</string>
+    <string name="FacebookLink">https://www.facebook.com/</string>
+    <string name="Amazon">Amazon</string>
+    <string name="AmazonLink">https://www.amazon.com/</string>
+    <string name="Google">Google</string>
+    <string name="GoogleLink">https://www.google.com/</string>
+    <string name="OpenMafag">Ouvrir le lien</string>
+</resources>
