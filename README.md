@@ -20,7 +20,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 ## Introduction aux bases de données - 8TRD151
 - [X] - [TP 1](./Intro%20DB/TP1)
 - [X] - [TD1](./Intro%20DB/TD1)
-- [X] - Examen 1 (?/100)
+- [X] - Examen 1 (83/100)
 - [X] - [TP2](./Intro%20DB/TP2)
 - [ ] - TP3
 - [ ] - Examen 2
@@ -36,7 +36,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD2](./POO/TD2)
 - [X] - [TD3](./POO/TD3)
 - [X] - [TD4](./POO/TD4)
-- [X] - Examen 1 (?/100)
+- [X] - Examen 1 (13.25/20)
 - [X] - [TP 2](./POO/TP2) (?/10)
 - [ ] - TP3
 - [ ] - Examen 2
@@ -45,13 +45,13 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
 - [X] - [TP 1](./Info%20Mobile/NitFlex) (?/20)
 - [X] - [TP 2](./Info%20Mobile/Personnage) (?/20)
-- [X] - Examen 1
+- [X] - Examen 1 (40/59)
 - [ ] - TP 3
 - [ ] - Examen 2
 - [ ] - Projet Final
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
 - [X] - [TP1](./Cybersécurité/TP1)
-- [X] - Examen 1 (?/100)
+- [X] - Examen 1 (43.5/50)
 - [ ] - TP2
 - [ ] - TP3
 - [ ] - Examen 2
