@@ -9,8 +9,8 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - Examen 1 (58/100 (68/100 with bonus))
 - [X] - [Examen 1 - Bonus](./Calcul%20Avancé/Examen%201%20-%20Bonus) (10/10)
 - [X] - [Série 4](./Calcul%20Avancé/Remise/Série%204.pdf) (1/1)
-- [X] - [Série 5](./Calcul%20Avancé/Remise/Série%205.pdf) (?/1)
-- [X] - [Série 6](./Calcul%20Avancé/Remise/Serie_6.pdf) (?/1)
+- [X] - [Série 5](./Calcul%20Avancé/Remise/Série%205.pdf) (1/1)
+- [X] - [Série 6](./Calcul%20Avancé/Remise/Serie_6.pdf) (1/1)
 - [ ] - Examen 2 (?/100)
 - [ ] - Série 7 (?/1)
 - [ ] - Série 8 (?/1)
@@ -18,7 +18,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [ ] - Série 10 (?/1)
 - [ ] - Examen 3 (?/100)
 ## Introduction aux bases de données - 8TRD151
-- [X] - [TP 1](./Intro%20DB/TP1)
+- [X] - [TP 1](./Intro%20DB/TP1) (91/100)
 - [X] - [TD1](./Intro%20DB/TD1)
 - [X] - Examen 1 (83/100)
 - [X] - [TP2](./Intro%20DB/TP2)
@@ -43,11 +43,12 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [ ] - Projet Final
 ## Informatique mobile - 8INF257
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
-- [X] - [TP 1](./Info%20Mobile/NitFlex) (?/20)
+- [X] - [TP 1](./Info%20Mobile/NitFlex) (20/20)
 - [X] - [TP 2](./Info%20Mobile/Personnage) (?/20)
 - [X] - Examen 1 (40/59)
 - [ ] - TP 3
 - [ ] - Examen 2
+- [X] - Synopsis Projet (5/5)
 - [ ] - Projet Final
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
 - [X] - [TP1](./Cybersécurité/TP1)
