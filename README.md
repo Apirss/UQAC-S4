@@ -41,7 +41,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD6](./POO/TD6)
 - [X] - Examen 1 (13.25/20)
 - [X] - [TP 2](./POO/TP2) (10/10)
-- [ ] - [TP 3](./POO/TP3) (?/10)
+- [X] - [TP 3](./POO/TP3) (?/10)
 - [ ] - Examen 2
 - [ ] - Projet Final
 ## Informatique mobile - 8INF257
