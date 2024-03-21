@@ -50,7 +50,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TP 1](./Info%20Mobile/NitFlex) (20/20)
 - [X] - [TP 2](./Info%20Mobile/Personnage) (?/20)
 - [X] - Examen 1 (40/59)
-- [ ] - TP 3
+- [X] - [TP 3](./Info%20Mobile/Mafag) (?/20)
 - [ ] - Examen 2
 - [X] - Synopsis Projet (5/5)
 - [ ] - Projet Final
