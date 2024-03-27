@@ -2,13 +2,14 @@
 // Created by Marco on 18/03/2024.
 //
 
-#include <iostream>
-#include <vector>
-
 using namespace std;
 
 #ifndef TP3_COORD_H
 #define TP3_COORD_H
+
+#include <iostream>
+#include <vector>
+#include "Point.h"
 
 template <class T>
 class Coord
@@ -36,7 +37,7 @@ public:
         Coord res = Coord(*this);
         for (size_t i = 0; i < res.coordonnes.size(); ++i)
         {
-            res.coordonnes[i] += c.coordonnes[i];
+            res.coordonnes[i] = res.coordonnes[i] + c.coordonnes[i];
         }
         return res;
     }
@@ -47,13 +48,13 @@ public:
         T res = T();
         for (size_t i = 0; i < coordonnes.size(); ++i)
         {
-            res += (coordonnes[i] * c.coordonnes[i]);
+            res = res + (coordonnes[i] * c.coordonnes[i]);
         }
         return res;
     }
 
     //Getter
-    vector<T> get() const
+    vector<T> get()
     {
         return coordonnes;
     }
@@ -61,11 +62,20 @@ public:
     //Display
     void display() const
     {
-        for (T coo:coordonnes)
+        if constexpr(is_same_v<T,Point>)
         {
-            cout << coo << " ";
+            for (T coo: coordonnes) {
+                ((Point)coo).display();
+            }
+            cout << endl;
         }
-        cout << endl;
+        else
+        {
+            for (T coo: coordonnes) {
+                cout << coo << " ";
+            }
+            cout << endl;
+        }
     }
 };
 
