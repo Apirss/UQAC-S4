@@ -73,5 +73,22 @@ int main()
     Point product = p1 * p2;
     cout << "Product : ";
     product.display();
+    cout << endl;
+
+    // Coordonnées de points
+    vector<Point> vp1 = {p1,p2};
+    Coord<Point> pc1 = Coord(vp1);
+
+    vector<Point> vp2 = {p2,p1};
+    Coord<Point> pc2 = Coord(vp2);
+
+    Coord<Point> s2 = pc1 + pc2;
+    Point prod = pc1 * pc2;
+
+    cout << "Coord<Point> Tests" << endl;
+    cout << "Sum p1 + p2 and p2 + p1" << endl;
+    s2.display();
+    cout << "Product pc1 and pc2" << endl;
+    prod.display();
     return 0;
 }
