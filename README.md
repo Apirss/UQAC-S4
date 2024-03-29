@@ -59,6 +59,6 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
 - [X] - [TP1](./Cybersécurité/TP1)
 - [X] - Examen 1 (43.5/50)
-- [ ] - TP2
+- [X] - [TP2](./Cybersécurité/TP2)
 - [ ] - TP3
 - [ ] - Examen 2
