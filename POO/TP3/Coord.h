@@ -59,13 +59,14 @@ public:
         return coordonnes;
     }
 
-    //Display
+    /*//Display
     void display() const
     {
-        if constexpr(is_same_v<T,Point>)
+        //if constexpr(is_same_v<T,Point>)
+        if (typeid(T) == typeid(Point))
         {
             for (T coo: coordonnes) {
-                ((Point)coo).display();
+                static_cast<Point>(coo).display();
             }
             cout << endl;
         }
@@ -76,7 +77,24 @@ public:
             }
             cout << endl;
         }
+    }*/
+
+    void display() const
+    {
+        for (T coo: coordonnes) {
+            cout << coo << " ";
+        }
+        cout << endl;
     }
 };
+
+template <>
+void Coord<Point>::display() const
+{
+    for (Point coo: coordonnes) {
+        coo.display();
+    }
+    cout << endl;
+}
 
 #endif //TP3_COORD_H
