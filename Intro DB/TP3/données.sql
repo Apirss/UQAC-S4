@@ -1,11 +1,12 @@
 INSERT INTO `universite` (`id_universite`,`nom_universite`,`sigle_université`,`adresse_universite`,`ville`,`code_postal`)
 VALUES
 (1,"Université du Québec à Montréal","UQAM","405 Rue Sainte-Catherine Est","Montréal","H2L2C4"),
-(2,"Université du Québec en Outaouais","UQO","283 Boul. Alexandre-Taché","Gatineau","J8X3X7"),
+(7,"Université du Québec en Outaouais","UQO","283 Boul. Alexandre-Taché","Gatineau","J8X3X7"),
 (3,"Université du Québec à Rimouski","UQAR","300 All. des Ursulines","Rimouski","G5L3A1"),
 (4,"Université du Québec en Abitibi-Témiscamingue","UQAT","445 Bd de l'Université","Rouyn-Noranda","J9X5E4"),
 (5,"Université du Québec à Trois-Rivières","UQTR","3351 Bd des Forges","Trois-Rivières","G8Z4M3"),
-(6,"Université du Québec à Chicoutimi","UQAC","555 Bd de l'Université","Chicoutimi","G7H2B1");
+(6,"Université du Québec à Chicoutimi","UQAC","555 Bd de l'Université","Chicoutimi","G7H2B1"),
+(2,"Université Laval","ULaval","2325 Rue de l'Université","Québec","G1V0A6");
 
 INSERT INTO `etudiant` (`id_etudiant`,`prenom_etudiant`,`nom_etudiant`,`abonnement`,`immatriculation`)
 VALUES
@@ -38,7 +39,8 @@ VALUES
   (5700,"Brett","Foley","2024-10-29 16:46:49","TIQ RKB"),
   (5701,"Vivien","Coffey","2024-10-11 01:14:59","HGJ OKI"),
   (5702,"Holly","Briggs","2024-08-05 20:32:07","RRI EWE"),
-  (5703,"Mohammad","Collins","2025-02-23 16:34:40","FIP QLE");
+  (5703,"Mohammad","Collins","2025-02-23 16:34:40","FIP QLE"),
+  (5704,"Jordan","Jean","2025-02-23 16:34:42","FIP QLG");
   
 INSERT INTO `agent` (`id_agent`,`nom_agent`,`prenom_agent`)
 VALUES
@@ -71,14 +73,15 @@ VALUES
   (27,"Reynolds","Garrison"),
   (28,"Franklin","Ivana"),
   (29,"Mckenzie","Rashad"),
-  (30,"Adkins","Galvin");
+  (30,"Adkins","Galvin"),
+  (31,"Courtois","Nadine");
   
   
 INSERT INTO `espace_stationnement` (`id_espace_stationnement`,`designation_espace_stationnement`,`id_universite`,`position`)
 VALUES
   (100,"ESPACE-1",4,"550 Bd de l'Université"),
   (101,"ESPACE-2",2,"551 Bd de l'Université"),
-  (102,"ESPACE-3",6,"552 Bd de l'Université"),
+  (102,"ESPACE-3",5,"552 Bd de l'Université"),
   (103,"ESPACE-4",3,"553 Bd de l'Université"),
   (104,"ESPACE-5",1,"554 Bd de l'Université"),
   (105,"ESPACE-6",3,"555 Bd de l'Université"),
@@ -89,7 +92,7 @@ VALUES
   (110,"ESPACE-11",5,"560 Bd de l'Université"),
   (111,"ESPACE-12",2,"561 Bd de l'Université"),
   (112,"ESPACE-13",5,"562 Bd de l'Université"),
-  (113,"ESPACE-14",6,"563 Bd de l'Université"),
+  (113,"ESPACE-14",5,"563 Bd de l'Université"),
   (114,"ESPACE-15",4,"564 Bd de l'Université"),
   (115,"ESPACE-16",3,"565 Bd de l'Université"),
   (116,"ESPACE-17",5,"566 Bd de l'Université"),
@@ -100,7 +103,7 @@ VALUES
   (121,"ESPACE-22",3,"571 Bd de l'Université"),
   (122,"ESPACE-23",2,"572 Bd de l'Université"),
   (123,"ESPACE-24",2,"573 Bd de l'Université"),
-  (124,"ESPACE-25",6,"574 Bd de l'Université"),
+  (124,"ESPACE-25",5,"574 Bd de l'Université"),
   (125,"ESPACE-26",4,"575 Bd de l'Université"),
   (126,"ESPACE-27",3,"576 Bd de l'Université"),
   (127,"ESPACE-28",4,"577 Bd de l'Université"),
@@ -167,7 +170,7 @@ VALUES
   (23,"personnes à mobilité réduite",20,"S963"),
   (24,"véhicules électriques",5,"W627"),
   (25,"standard",10,"N577"),
-  (26,"personnes à mobilité réduite",12,"M264"),
+  (26,"personnes à mobilité réduite",26,"M264"),
   (27,"véhicules électriques",13,"U484"),
   (28,"standard",26,"J436"),
   (29,"personnes à mobilité réduite",16,"N822"),
@@ -195,7 +198,8 @@ VALUES
   
  INSERT INTO `place_reservee` (`id_place`,`id_etudiant`,`date_reservation`,`heure_debut_reservation`,`heure_fin_reservation`)
 VALUES
-  (14,5689,"2024-09-04","8:41","19:03"),
+  (14,5704,"2023-09-04","8:41","19:03"),
+  (14,5703,"2023-09-04","8:41","19:03"),
   (10,5679,"2024-06-11","7:50","18:04"),
   (31,5703,"2024-10-15","1:22","15:28"),
   (47,5699,"2024-05-24","7:59","14:08"),
@@ -257,7 +261,7 @@ VALUES
   (5,107,"2025-03-29","5:36","21:48"),
   (1,124,"2024-04-27","1:05","20:55"),
   (10,128,"2025-03-26","8:14","15:28"),
-  (11,116,"2024-12-24","0:04","19:09");
+  (31,110,"2024-12-24","0:04","19:09");
 
 INSERT INTO `cours` (`id_cours`,`nom_du_cours`,`nombre_heures`,`debut`,`fin`)
 VALUES
@@ -323,4 +327,13 @@ VALUES
   (402,5699,"Hiver","P4-1502"),
   (410,5694,"Automne","P7-2883"),
   (403,5684,"Hiver","P3-9795"),
-  (404,5685,"Automne","P0-3373");
+  (404,5685,"Automne","P0-3373"),
+  (401,5681,"Automne","P5-5645"),
+  (402,5681,"Automne","P5-5645"),
+  (403,5681,"Automne","P5-5645"),
+  (405,5681,"Automne","P5-5645"),
+  (406,5681,"Automne","P5-5645"),
+  (407,5681,"Automne","P5-5645"),
+  (408,5681,"Automne","P5-5645"),
+  (409,5681,"Automne","P5-5645"),
+  (410,5681,"Automne","P5-5645");
