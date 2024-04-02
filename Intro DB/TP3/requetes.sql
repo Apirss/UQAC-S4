@@ -178,8 +178,9 @@ WHERE
             place_reservee pr
         WHERE 
             DAYOFWEEK(pr.date_reservation) = 4 AND 
-            pr.heure_debut_reservation >= '16:00:00' AND 
-            pr.heure_fin_reservation <= '18:45:00'
+            ((pr.heure_debut_reservation >= '16:00:00' AND pr.heure_debut_reservation <= '18:45:00') OR
+	    (pr.heure_fin_reservation <= '18:45:00' AND pr.heure_fin_reservation >= '16:00:00') OR 
+	    (pr.heure_debut_reservation < '16:00:00' AND pr.heure_fin_reservation > '18:45:00'))
     );
     
 -- Requête 10
