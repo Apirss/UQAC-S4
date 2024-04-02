@@ -284,3 +284,76 @@ VALUES (430, 'Introduction aux bases de données 2', 4, "2025-03-24 08:00:00", D
 -- Insérer un nouveau cours suivi
 INSERT INTO cours_suivi (id_cours, id_etudiant, session, local)
 VALUES (430, 5705, 'Hiver 2024', 'P0-3373');
+
+-- Requête 14
+SELECT e.*
+FROM etudiant e
+JOIN cours_suivi cs ON e.id_etudiant = cs.id_etudiant
+JOIN cours c ON cs.id_cours = c.id_cours
+JOIN place_reservee pr ON e.id_etudiant = pr.id_etudiant
+JOIN place p ON pr.id_place = p.id_place
+JOIN allee a ON p.id_allee = a.id_allee
+JOIN espace_stationnement es ON a.id_espace_stationnement = es.id_espace_stationnement
+JOIN universite u ON es.id_universite = u.id_universite
+WHERE c.nom_du_cours = 'Programmation jeux vidéo'
+AND pr.date_reservation = '2024-03-18'
+AND u.sigle_université = 'UQAC'
+AND es.id_espace_stationnement = (SELECT MIN(id_espace_stationnement) FROM espace_stationnement WHERE id_universite = u.id_universite);
+
+-- Requête 15
+SELECT ag.*
+FROM agent ag
+JOIN espace_surveille es ON ag.id_agent = es.id_agent
+JOIN espace_stationnement est ON es.id_espace_stationnement = est.id_espace_stationnement
+JOIN allee al ON est.id_espace_stationnement = al.id_espace_stationnement
+JOIN place pl ON al.id_allee = pl.id_allee
+GROUP BY est.id_espace_stationnement, ag.id_agent
+HAVING COUNT(pl.id_place) > 45;
+
+-- Requête 16
+SELECT 
+    u.nom_universite, 
+    p.type_de_place, 
+    COUNT(pr.id_place) / COUNT(p.id_place) AS taux_occupation_moyen
+FROM 
+    universite u
+JOIN 
+    espace_stationnement es ON u.id_universite = es.id_universite
+JOIN 
+    allee a ON es.id_espace_stationnement = a.id_espace_stationnement
+JOIN 
+    place p ON a.id_allee = p.id_allee
+LEFT JOIN 
+    place_reservee pr ON p.id_place = pr.id_place
+LEFT JOIN 
+    etudiant e ON e.id_etudiant = pr.id_etudiant
+LEFT JOIN 
+    cours_suivi cs ON e.id_etudiant = cs.id_etudiant
+WHERE 
+    cs.session = (SELECT MAX(session) FROM cours_suivi)
+GROUP BY 
+    u.nom_universite, 
+    p.type_de_place;
+
+-- Requête 17
+WITH reservation_par_universite AS (
+    SELECT u.nom_universite, COUNT(pr.id_place) AS nombre_reservations, COUNT(DISTINCT e.id_etudiant) AS nombre_etudiants
+    FROM universite u
+    JOIN espace_stationnement es ON u.id_universite = es.id_universite
+    JOIN allee a ON es.id_espace_stationnement = a.id_espace_stationnement
+    JOIN place p ON a.id_allee = p.id_allee
+    JOIN place_reservee pr ON p.id_place = pr.id_place
+    JOIN etudiant e ON pr.id_etudiant = e.id_etudiant
+    GROUP BY u.nom_universite
+),
+ratio_reservation AS (
+    SELECT nom_universite, nombre_reservations / nombre_etudiants AS ratio
+    FROM reservation_par_universite
+)
+SELECT nom_universite, ratio AS meilleur_ratio
+FROM ratio_reservation
+WHERE ratio = (SELECT MAX(ratio) FROM ratio_reservation)
+UNION ALL
+SELECT nom_universite, ratio AS pire_ratio
+FROM ratio_reservation
+WHERE ratio = (SELECT MIN(ratio) FROM ratio_reservation);

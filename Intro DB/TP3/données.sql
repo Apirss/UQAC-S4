@@ -106,7 +106,7 @@ VALUES
   (124,"ESPACE-25",5,"574 Bd de l'Université"),
   (125,"ESPACE-26",4,"575 Bd de l'Université"),
   (126,"ESPACE-27",3,"576 Bd de l'Université"),
-  (127,"ESPACE-28",4,"577 Bd de l'Université"),
+  (127,"ESPACE-28",6,"577 Bd de l'Université"),
   (128,"ESPACE-29",5,"578 Bd de l'Université"),
   (129,"ESPACE-30",1,"579 Bd de l'Université");
   
@@ -200,7 +200,7 @@ VALUES
 VALUES
   (14,5704,"2023-09-04","8:41","19:03"),
   (14,5703,"2023-09-04","8:41","19:03"),
-  (10,5679,"2024-06-11","7:50","18:04"),
+  (10,5695,"2024-03-18","7:50","18:04"),
   (31,5703,"2024-10-15","1:22","15:28"),
   (47,5699,"2024-05-24","7:59","14:08"),
   (50,5687,"2024-07-11","6:42","20:46"),
@@ -294,7 +294,8 @@ VALUES
   (426,"Maths",3,"2024-12-30 13:00:00", DATE_ADD("2024-12-30 13:00:00", INTERVAL 3 HOUR)),
   (427,"Maths",3,"2025-03-08 11:00:00", DATE_ADD("2025-03-08 11:00:00", INTERVAL 3 HOUR)),
   (428,"Marketing",2,"2024-09-13 11:00:00", DATE_ADD("2024-09-13 11:00:00", INTERVAL 2 HOUR)),
-  (429,"Finances",2,"2024-09-27 15:00:00", DATE_ADD("2024-09-27 15:00:00", INTERVAL 2 HOUR));
+  (429,"Finances",2,"2024-09-27 15:00:00", DATE_ADD("2024-09-27 15:00:00", INTERVAL 2 HOUR)),
+  (432,"Programmation jeux vidéo",2,"2024-09-27 15:00:00", DATE_ADD("2024-09-27 15:00:00", INTERVAL 2 HOUR));
   
   INSERT INTO `cours_suivi` (`id_cours`,`id_etudiant`,`session`,`local`)
 VALUES
@@ -321,7 +322,7 @@ VALUES
   (402,5696,"Printemps","P1-1272"),
   (405,5685,"Automne","P2-3463"),
   (403,5693,"Hiver","P8-3974"),
-  (420,5695,"Printemps","P1-2311"),
+  (432,5695,"Printemps","P1-2311"),
   (401,5676,"Automne","P5-5161"),
   (427,5695,"Printemps","P9-8715"),
   (402,5699,"Hiver","P4-1502"),
