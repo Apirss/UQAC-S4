@@ -106,7 +106,7 @@ GROUP BY
     mois;
     
 -- Requête 7
-WITH reservation_counts AS (
+CREATE VIEW reservation_counts AS
     SELECT 
         u.nom_universite,
         COUNT(r.id_place) AS nombre_reservations
@@ -123,12 +123,11 @@ WITH reservation_counts AS (
     WHERE 
         YEAR(r.date_reservation) = 2023 AND MONTH(r.date_reservation) <= 6
     GROUP BY 
-        u.nom_universite
-)
-
+        u.nom_universite;
 SELECT 
     nom_universite, 
-    nombre_reservations AS max_reservations
+    nombre_reservations AS max_reservations,
+    'Max' as Type
 FROM 
     reservation_counts
 WHERE 
@@ -136,11 +135,14 @@ WHERE
 UNION ALL
 SELECT 
     nom_universite, 
-    nombre_reservations AS min_reservations
+    nombre_reservations AS min_reservations,
+    'Min' as Type
 FROM 
     reservation_counts
 WHERE 
     nombre_reservations = (SELECT MIN(nombre_reservations) FROM reservation_counts);
+
+DROP VIEW reservation_counts;
     
 -- Requête 8
 SELECT 
@@ -268,11 +270,11 @@ VALUES (31, 130, 'Allée Test', 'unique');
 
 -- Insérer une nouvelle place
 INSERT INTO place (id_place, type_de_place, id_allee,nom)
-VALUES (51, 'standard', 31, "G823");
+VALUES (96, 'standard', 31, "G823");
 
 -- Insérer une nouvelle réservation
 INSERT INTO place_reservee (id_place, id_etudiant, date_reservation, heure_debut_reservation, heure_fin_reservation)
-VALUES (51, 5705, '2024-04-24', '10:00:00', '13:00:00');
+VALUES (96, 5705, '2024-04-24', '10:00:00', '13:00:00');
 
 -- Insérer un nouvel espace surveillé
 INSERT INTO espace_surveille (id_agent, id_espace_stationnement, date_surveillance, heure_debut_surveillance, heure_fin_surveillance)
@@ -312,15 +314,15 @@ GROUP BY est.id_espace_stationnement, ag.id_agent
 HAVING COUNT(pl.id_place) > 45;
 
 -- Requête 16
-WITH total_places AS (
+CREATE VIEW total_places AS 
     SELECT u.nom_universite, p.type_de_place, COUNT(p.id_place) AS total_places
     FROM universite u
     JOIN espace_stationnement es ON u.id_universite = es.id_universite
     JOIN allee a ON es.id_espace_stationnement = a.id_espace_stationnement
     JOIN place p ON a.id_allee = p.id_allee
-    GROUP BY u.nom_universite, p.type_de_place
-),
-places_reservees AS (
+    GROUP BY u.nom_universite, p.type_de_place;
+    
+CREATE VIEW places_reservees AS 
     SELECT u.nom_universite, p.type_de_place, COUNT(pr.id_place) AS places_reservees
     FROM universite u
     JOIN espace_stationnement es ON u.id_universite = es.id_universite
@@ -330,14 +332,17 @@ places_reservees AS (
     JOIN etudiant e ON pr.id_etudiant = e.id_etudiant
     JOIN cours_suivi cs ON e.id_etudiant = cs.id_etudiant
     WHERE cs.session = (SELECT MAX(session) FROM cours_suivi)
-    GROUP BY u.nom_universite, p.type_de_place
-)
+    GROUP BY u.nom_universite, p.type_de_place;
+    
 SELECT tp.nom_universite, tp.type_de_place, (IFNULL(pr.places_reservees, 0) / tp.total_places) * 100 AS taux_occupation_moyen
 FROM total_places tp
 LEFT JOIN places_reservees pr ON tp.nom_universite = pr.nom_universite AND tp.type_de_place = pr.type_de_place;
 
+DROP VIEW total_places;
+DROP VIEW places_reservees;
+
 -- Requête 17
-WITH reservation_par_universite AS (
+CREATE VIEW reservation_par_universite AS 
     SELECT u.nom_universite, COUNT(pr.id_place) AS nombre_reservations, COUNT(DISTINCT e.id_etudiant) AS nombre_etudiants
     FROM universite u
     JOIN espace_stationnement es ON u.id_universite = es.id_universite
@@ -345,12 +350,12 @@ WITH reservation_par_universite AS (
     JOIN place p ON a.id_allee = p.id_allee
     JOIN place_reservee pr ON p.id_place = pr.id_place
     JOIN etudiant e ON pr.id_etudiant = e.id_etudiant
-    GROUP BY u.nom_universite
-),
-ratio_reservation AS (
+    GROUP BY u.nom_universite;
+    
+CREATE VIEW ratio_reservation AS 
     SELECT nom_universite, nombre_reservations / nombre_etudiants AS ratio
-    FROM reservation_par_universite
-)
+    FROM reservation_par_universite;
+    
 (SELECT nom_universite AS universite, ratio AS ratio, 'Meilleur' AS Type
 FROM ratio_reservation
 WHERE ratio = (SELECT MAX(ratio) FROM ratio_reservation))
@@ -358,3 +363,6 @@ UNION ALL
 (SELECT nom_universite AS universite, ratio AS ratio, 'Pire' AS Type
 FROM ratio_reservation
 WHERE ratio = (SELECT MIN(ratio) FROM ratio_reservation));
+
+DROP VIEW reservation_par_universite;
+DROP VIEW ratio_reservation;
