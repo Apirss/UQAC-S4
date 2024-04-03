@@ -22,7 +22,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD1](./Intro%20DB/TD1)
 - [X] - Examen 1 (83/100)
 - [X] - [TP2](./Intro%20DB/TP2)
-- [ ] - [TP3](./Intro%20DB/TP3)
+- [X] - [TP3](./Intro%20DB/TP3)
 - [ ] - Examen 2
 - [ ] - Projet Final
 ## Programmation orientée objet - 8PRO128
