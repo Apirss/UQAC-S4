@@ -12,7 +12,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [Série 5](./Calcul%20Avancé/Remise/Série%205.pdf) (1/1)
 - [X] - [Série 6](./Calcul%20Avancé/Remise/Serie_6.pdf) (1/1)
 - [X] - Examen 2 (96.5/100)
-- [X] - [Série 7](./Calcul%20Avancé/Remise/Série%207.pdf) (?/1)
+- [X] - [Série 7](./Calcul%20Avancé/Remise/Série%207.pdf) (1/1)
 - [ ] - Série 8 (?/1)
 - [ ] - Série 9 (?/1)
 - [ ] - Série 10 (?/1)
@@ -22,7 +22,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD1](./Intro%20DB/TD1)
 - [X] - Examen 1 (83/100)
 - [X] - [TP2](./Intro%20DB/TP2)
-- [ ] - TP3
+- [ ] - [TP3](./Intro%20DB/TP3)
 - [ ] - Examen 2
 - [ ] - Projet Final
 ## Programmation orientée objet - 8PRO128
