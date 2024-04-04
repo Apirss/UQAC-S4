@@ -14,7 +14,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - Examen 2 (28,95/30)
 - [X] - [Série 7](./Calcul%20Avancé/Remise/Série%207.pdf) (1/1)
 - [X] - [Série 8](./Calcul%20Avancé/Remise/Série%208.pdf) (?/1)
-- [ ] - Série 9 (?/1)
+- [X] - [Série 9](./Calcul%20Avancé/Remise/Série%209.pdf) (?/1)
 - [ ] - Série 10 (?/1)
 - [ ] - Examen 3 (?/30)
 
