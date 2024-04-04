@@ -6,25 +6,31 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [Série 1](./Calcul%20Avancé/Remise/Série%201.pdf) (1/1)
 - [X] - [Série 2](./Calcul%20Avancé/Remise/Série%202.pdf) (1/1)
 - [X] - [Série 3](./Calcul%20Avancé/Remise/Série%203.pdf) (1/1)
-- [X] - Examen 1 (58/100 (68/100 with bonus))
-- [X] - [Examen 1 - Bonus](./Calcul%20Avancé/Examen%201%20-%20Bonus) (10/10)
+- [X] - Examen 1 (20,4/30 (Bonus Included))
+- [X] - [Examen 1 - Bonus](./Calcul%20Avancé/Examen%201%20-%20Bonus)
 - [X] - [Série 4](./Calcul%20Avancé/Remise/Série%204.pdf) (1/1)
 - [X] - [Série 5](./Calcul%20Avancé/Remise/Série%205.pdf) (1/1)
 - [X] - [Série 6](./Calcul%20Avancé/Remise/Serie_6.pdf) (1/1)
-- [X] - Examen 2 (96.5/100)
+- [X] - Examen 2 (28,95/30)
 - [X] - [Série 7](./Calcul%20Avancé/Remise/Série%207.pdf) (1/1)
 - [ ] - Série 8 (?/1)
 - [ ] - Série 9 (?/1)
 - [ ] - Série 10 (?/1)
-- [ ] - Examen 3 (?/100)
+- [ ] - Examen 3 (?/30)
+
+Total : 56,35/67
+
 ## Introduction aux bases de données - 8TRD151
-- [X] - [TP 1](./Intro%20DB/TP1) (91/100)
+- [X] - [TP 1](./Intro%20DB/TP1) (9,10/100)
 - [X] - [TD1](./Intro%20DB/TD1)
-- [X] - Examen 1 (83/100)
+- [X] - Examen 1 (12,45/15)
 - [X] - [TP2](./Intro%20DB/TP2)
 - [X] - [TP3](./Intro%20DB/TP3)
 - [ ] - Examen 2
 - [ ] - Projet Final
+
+Total : 21,55/25
+
 ## Programmation orientée objet - 8PRO128
 - Cours
   - [X] [Chapitre 1](POO/Chapitre%201/Chapitre%201.pdf)
@@ -43,22 +49,30 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [TD6](./POO/TD6)
 - [X] - Examen 1 (13.25/20)
 - [X] - [TP 2](./POO/TP2) (10/10)
-- [X] - [TP 3](./POO/TP3) (?/10)
+- [X] - [TP 3](./POO/TP3) (10/10)
 - [X] - [TD7](./POO/TD7)
 - [ ] - Examen 2
 - [ ] - Projet Final
+
+Total : 43,25/50
+
 ## Informatique mobile - 8INF257
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
-- [X] - [TP 1](./Info%20Mobile/NitFlex) (20/20)
-- [X] - [TP 2](./Info%20Mobile/Personnage) (?/20)
-- [X] - Examen 1 (40/59)
-- [X] - [TP 3](./Info%20Mobile/Mafag) (?/20)
+- [X] - [TP 1](./Info%20Mobile/NitFlex) (5/5)
+- [X] - [TP 2](./Info%20Mobile/Personnage) (?/10)
+- [X] - Examen 1 (20,34/30)
+- [X] - [TP 3](./Info%20Mobile/Mafag) (?/5)
 - [ ] - Examen 2
 - [X] - Synopsis Projet (5/5)
 - [ ] - Projet Final
+
+Total : 30,34/40
+
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
-- [X] - [TP1](./Cybersécurité/TP1)
-- [X] - Examen 1 (43.5/50)
+- [X] - [TP1](./Cybersécurité/TP1) (14,19/15)
+- [X] - Examen 1 (21,75/25)
 - [X] - [TP2](./Cybersécurité/TP2)
 - [ ] - TP3
 - [ ] - Examen 2
+
+Total : 35,94/40
