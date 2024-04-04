@@ -40,6 +40,7 @@ Total : 21,55/25
   - [X] [Chapitre 5](./POO/Chapitre%205)
   - [X] [Chapitre 6](./POO/Chapitre%206)
   - [X] [Chapitre 7](./POO/Chapitre%207)
+  - [X] [Chapitre 8](./POO/Chapitre%208)
 - [X] - [TD1](./POO/TD1)
 - [X] - [TP1](./POO/TP1) (10/10)
 - [X] - [TD2](./POO/TD2)
