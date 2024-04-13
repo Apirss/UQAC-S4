@@ -75,6 +75,6 @@ Total : 30,34/40
 - [X] - Examen 1 (21,75/25)
 - [X] - [TP2](./Cybersécurité/TP2) (?/15)
 - [ ] - TP3 (?/15)
-- [ ] - Examen 2 (?30)
+- [ ] - Examen 2 (?/30)
 
 Total : 35,94/40
