@@ -25,9 +25,9 @@ Total : 57,35/68
 - [X] - [TD1](./Intro%20DB/TD1)
 - [X] - Examen 1 (12,45/15)
 - [X] - [TP2](./Intro%20DB/TP2) (8,5/10)
-- [X] - [TP3](./Intro%20DB/TP3)
-- [ ] - Examen 2
-- [ ] - Projet Final
+- [X] - [TP3](./Intro%20DB/TP3) (?/20)
+- [ ] - Examen 2 (?/20)
+- [ ] - Projet Final (?/25)
 
 Total : 30,05/35,00
 
@@ -53,8 +53,8 @@ Total : 30,05/35,00
 - [X] - [TP 3](./POO/TP3) (10/10)
 - [X] - [TD7](./POO/TD7)
 - [ ] - TD8
-- [ ] - Examen 2
-- [ ] - Projet Final
+- [ ] - Examen 2 (?/20)
+- [ ] - Projet Final (?/30)
 
 Total : 43,25/50
 
@@ -64,17 +64,17 @@ Total : 43,25/50
 - [X] - [TP 2](./Info%20Mobile/Personnage) (?/10)
 - [X] - Examen 1 (20,34/30)
 - [X] - [TP 3](./Info%20Mobile/Mafag) (?/5)
-- [ ] - Examen 2
+- [ ] - Examen 2 (?/20)
 - [X] - Synopsis Projet (5/5)
-- [ ] - Projet Final
+- [ ] - Projet Final (?/25)
 
 Total : 30,34/40
 
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
 - [X] - [TP1](./Cybersécurité/TP1) (14,19/15)
 - [X] - Examen 1 (21,75/25)
-- [X] - [TP2](./Cybersécurité/TP2)
-- [ ] - TP3
-- [ ] - Examen 2
+- [X] - [TP2](./Cybersécurité/TP2) (?/15)
+- [ ] - TP3 (?/15)
+- [ ] - Examen 2 (?30)
 
 Total : 35,94/40
