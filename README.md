@@ -13,23 +13,23 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [Série 6](./Calcul%20Avancé/Remise/Série%206.pdf) (1/1)
 - [X] - Examen 2 (28,95/30)
 - [X] - [Série 7](./Calcul%20Avancé/Remise/Série%207.pdf) (1/1)
-- [X] - [Série 8](./Calcul%20Avancé/Remise/Série%208.pdf) (?/1)
+- [X] - [Série 8](./Calcul%20Avancé/Remise/Série%208.pdf) (1/1)
 - [X] - [Série 9](./Calcul%20Avancé/Remise/Série%209.pdf) (?/1)
-- [ ] - Série 10 (?/1)
+- [X] - [Série 10](./Calcul%20Avancé/Remise/Série%2010.pdf) (?/1)
 - [ ] - Examen 3 (?/30)
 
-Total : 56,35/67
+Total : 57,35/68
 
 ## Introduction aux bases de données - 8TRD151
-- [X] - [TP 1](./Intro%20DB/TP1) (9,10/100)
+- [X] - [TP 1](./Intro%20DB/TP1) (9,10/10)
 - [X] - [TD1](./Intro%20DB/TD1)
 - [X] - Examen 1 (12,45/15)
-- [X] - [TP2](./Intro%20DB/TP2)
+- [X] - [TP2](./Intro%20DB/TP2) (8,5/10)
 - [X] - [TP3](./Intro%20DB/TP3)
 - [ ] - Examen 2
 - [ ] - Projet Final
 
-Total : 21,55/25
+Total : 30,05/35,00
 
 ## Programmation orientée objet - 8PRO128
 - Cours
@@ -52,6 +52,7 @@ Total : 21,55/25
 - [X] - [TP 2](./POO/TP2) (10/10)
 - [X] - [TP 3](./POO/TP3) (10/10)
 - [X] - [TD7](./POO/TD7)
+- [ ] - TD8
 - [ ] - Examen 2
 - [ ] - Projet Final
 
