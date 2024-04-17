@@ -52,7 +52,7 @@ Total : 30,05/35,00
 - [X] - [TP 2](./POO/TP2) (10/10)
 - [X] - [TP 3](./POO/TP3) (10/10)
 - [X] - [TD7](./POO/TD7)
-- [ ] - TD8
+- [X] - [TD8](./POO/TD8)
 - [ ] - Examen 2 (?/20)
 - [ ] - Projet Final (?/30)
 
