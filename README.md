@@ -64,7 +64,7 @@ Total : 43,25/50
 - [X] - [TP 2](./Info%20Mobile/Personnage) (?/10)
 - [X] - Examen 1 (20,34/30)
 - [X] - [TP 3](./Info%20Mobile/Mafag) (?/5)
-- [ ] - Examen 2 (?/20)
+- [X] - Examen 2 (?/20)
 - [X] - Synopsis Projet (5/5)
 - [ ] - Projet Final (?/25)
 
@@ -74,7 +74,7 @@ Total : 30,34/40
 - [X] - [TP1](./Cybersécurité/TP1) (14,19/15)
 - [X] - Examen 1 (21,75/25)
 - [X] - [TP2](./Cybersécurité/TP2) (?/15)
-- [ ] - TP3 (?/15)
+- [X] - [TP3](./Cybersécurité/TP3) (?/15)
 - [ ] - Examen 2 (?/30)
 
 Total : 35,94/40
