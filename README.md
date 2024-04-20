@@ -26,7 +26,7 @@ Total : 58,35/69
 - [X] - Examen 1 (12,45/15)
 - [X] - [TP2](./Intro%20DB/TP2) (8,5/10)
 - [X] - [TP3](./Intro%20DB/TP3) (?/20)
-- [ ] - Examen 2 (?/20)
+- [X] - Examen 2 (?/20)
 - [ ] - Projet Final (?/25)
 
 Total : 30,05/35,00
@@ -53,8 +53,8 @@ Total : 30,05/35,00
 - [X] - [TP 3](./POO/TP3) (10/10)
 - [X] - [TD7](./POO/TD7)
 - [X] - [TD8](./POO/TD8)
-- [ ] - Examen 2 (?/20)
-- [ ] - Projet Final (?/30)
+- [X] - Examen 2 (?/20)
+- [X] - Projet Final (?/30)
 
 Total : 43,25/50
 
