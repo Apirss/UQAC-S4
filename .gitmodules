@@ -1,9 +1,3 @@
-[submodule "Projet-InfoMob/"]
-	url = https://github.com/Apirss/Projet-InfoMob
-[submodule "Projet-POO/"]
-	url = https://github.com/Apirss/Projet-POO
-[submodule "IntroSQLProJUQAC/"]
-	url = https://github.com/FireGh0st/IntroSQLProJUQAC
 [submodule "Intro DB/IntroSQLProJUQAC/"]
 	url = https://github.com/FireGh0st/IntroSQLProJUQAC
 [submodule "POO/Projet-POO/"]
