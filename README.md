@@ -15,10 +15,10 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [Série 7](./Calcul%20Avancé/Remise/Série%207.pdf) (1/1)
 - [X] - [Série 8](./Calcul%20Avancé/Remise/Série%208.pdf) (1/1)
 - [X] - [Série 9](./Calcul%20Avancé/Remise/Série%209.pdf) (1/1)
-- [X] - [Série 10](./Calcul%20Avancé/Remise/Série%2010.pdf) (?/1)
+- [X] - [Série 10](./Calcul%20Avancé/Remise/Série%2010.pdf) (1/1)
 - [ ] - Examen 3 (?/30)
 
-Total : 58,35/69
+Total : 59,35/70
 
 ## Introduction aux bases de données - 8TRD151
 - [X] - [TP 1](./Intro%20DB/TP1) (9,10/10)
