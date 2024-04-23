@@ -27,7 +27,7 @@ Total : 59,35/70
 - [X] - [TP2](./Intro%20DB/TP2) (8,5/10)
 - [X] - [TP3](./Intro%20DB/TP3) (?/20)
 - [X] - Examen 2 (?/20)
-- [ ] - Projet Final (?/25)
+- [X] - [Projet Final](https://github.com/FireGh0st/IntroSQLProJUQAC) (?/25)
 
 Total : 30,05/35,00
 
@@ -66,7 +66,7 @@ Total : 43,25/50
 - [X] - [TP 3](./Info%20Mobile/Mafag) (?/5)
 - [X] - Examen 2 (?/20)
 - [X] - Synopsis Projet (5/5)
-- [ ] - Projet Final (?/25)
+- [ ] - [Projet Final](https://github.com/Apirss/Projet-InfoMob) (?/25)
 
 Total : 30,34/40
 
