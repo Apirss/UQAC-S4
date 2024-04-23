@@ -54,7 +54,7 @@ Total : 30,05/35,00
 - [X] - [TD7](./POO/TD7)
 - [X] - [TD8](./POO/TD8)
 - [X] - Examen 2 (?/20)
-- [X] - [Projet Final](./POO/Projet-POO%20@%20ebbcdc4) (?/30)
+- [X] - [Projet Final](./POO/Projet-PO) (?/30)
 
 Total : 43,25/50
 
