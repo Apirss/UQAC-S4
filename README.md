@@ -53,10 +53,10 @@ Total : 30,05/35,00
 - [X] - [TP 3](./POO/TP3) (10/10)
 - [X] - [TD7](./POO/TD7)
 - [X] - [TD8](./POO/TD8)
-- [X] - Examen 2 (?/20)
+- [X] - Examen 2 (17/20)
 - [X] - [Projet Final](https://github.com/Apirss/Projet-POO) (?/30)
 
-Total : 43,25/50
+Total : 63,25/70
 
 ## Informatique mobile - 8INF257
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
