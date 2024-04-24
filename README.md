@@ -56,7 +56,7 @@ Total : 30,05/35,00
 - [X] - Examen 2 (17/20)
 - [X] - [Projet Final](https://github.com/Apirss/Projet-POO) (?/30)
 
-Total : 63,25/70
+Total : 60,25/70
 
 ## Informatique mobile - 8INF257
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
