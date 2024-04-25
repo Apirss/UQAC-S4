@@ -16,7 +16,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [Série 8](./Calcul%20Avancé/Remise/Série%208.pdf) (1/1)
 - [X] - [Série 9](./Calcul%20Avancé/Remise/Série%209.pdf) (1/1)
 - [X] - [Série 10](./Calcul%20Avancé/Remise/Série%2010.pdf) (1/1)
-- [ ] - Examen 3 (?/30)
+- [X] - Examen 3 (?/30)
 
 Total : 59,35/70
 
@@ -66,7 +66,7 @@ Total : 60,25/70
 - [X] - [TP 3](./Info%20Mobile/Mafag) (?/5)
 - [X] - Examen 2 (?/20)
 - [X] - Synopsis Projet (5/5)
-- [ ] - [Projet Final](https://github.com/Apirss/Projet-InfoMob) (?/25)
+- [X] - [Projet Final](https://github.com/Apirss/Projet-InfoMob) (?/25)
 
 Total : 30,34/40
 
