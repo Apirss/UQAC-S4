@@ -4,3 +4,6 @@
 [submodule "Intro DB/IntroSQLProJUQAC"]
 	path = Intro DB/IntroSQLProJUQAC
 	url = https://github.com/FireGh0st/IntroSQLProJUQAC
+[submodule "Info Mobile/Projet-InfoMob"]
+	path = Info Mobile/Projet-InfoMob
+	url = git@github.com:Apirss/Projet-InfoMob.git
