@@ -73,8 +73,8 @@ Total : 30,34/40
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
 - [X] - [TP1](./Cybersécurité/TP1) (14,19/15)
 - [X] - Examen 1 (21,75/25)
-- [X] - [TP2](./Cybersécurité/TP2) (?/15)
+- [X] - [TP2](./Cybersécurité/TP2) (15/15)
 - [X] - [TP3](./Cybersécurité/TP3) (?/15)
-- [ ] - Examen 2 (?/30)
+- [X] - Examen 2 (?/30)
 
-Total : 35,94/40
+Total : 50,94/40
