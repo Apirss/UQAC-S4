@@ -16,20 +16,20 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [Série 8](./Calcul%20Avancé/Remise/Série%208.pdf) (1/1)
 - [X] - [Série 9](./Calcul%20Avancé/Remise/Série%209.pdf) (1/1)
 - [X] - [Série 10](./Calcul%20Avancé/Remise/Série%2010.pdf) (1/1)
-- [X] - Examen 3 (?/30)
+- [X] - Examen 3 (17,7/30)
 
-Total : 59,35/70
+Total : 77,05/100,00
 
 ## Introduction aux bases de données - 8TRD151
 - [X] - [TP 1](./Intro%20DB/TP1) (9,10/10)
 - [X] - [TD1](./Intro%20DB/TD1)
 - [X] - Examen 1 (12,45/15)
 - [X] - [TP2](./Intro%20DB/TP2) (8,5/10)
-- [X] - [TP3](./Intro%20DB/TP3) (?/20)
-- [X] - Examen 2 (?/20)
-- [X] - [Projet Final](https://github.com/FireGh0st/IntroSQLProJUQAC) (?/25)
+- [X] - [TP3](./Intro%20DB/TP3) (19,40/20,00)
+- [X] - Examen 2 (20,25/25,00)
+- [X] - [Projet Final](https://github.com/FireGh0st/IntroSQLProJUQAC) (18,60/20,00)
 
-Total : 30,05/35,00
+Total : 88,30/100,00
 
 ## Programmation orientée objet - 8PRO128
 - Cours
@@ -54,27 +54,27 @@ Total : 30,05/35,00
 - [X] - [TD7](./POO/TD7)
 - [X] - [TD8](./POO/TD8)
 - [X] - Examen 2 (17/20)
-- [X] - [Projet Final](https://github.com/Apirss/Projet-POO) (?/30)
+- [X] - [Projet Final](https://github.com/Apirss/Projet-POO) (30/30)
 
-Total : 60,25/70
+Total : 90,25/100,00
 
 ## Informatique mobile - 8INF257
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
 - [X] - [TP 1](./Info%20Mobile/NitFlex) (5/5)
-- [X] - [TP 2](./Info%20Mobile/Personnage) (?/10)
+- [X] - [TP 2](./Info%20Mobile/Personnage) (10,00/10,00)
 - [X] - Examen 1 (20,34/30)
-- [X] - [TP 3](./Info%20Mobile/Mafag) (?/5)
-- [X] - Examen 2 (?/20)
+- [X] - [TP 3](./Info%20Mobile/Mafag) (5,00/5,00)
+- [X] - Examen 2 (18,57/20,00)
 - [X] - Synopsis Projet (5/5)
 - [X] - [Projet Final](https://github.com/Apirss/Projet-InfoMob) (?/25)
 
-Total : 30,34/40
+Total : 63,91/75,00
 
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
 - [X] - [TP1](./Cybersécurité/TP1) (14,19/15)
 - [X] - Examen 1 (21,75/25)
 - [X] - [TP2](./Cybersécurité/TP2) (15/15)
 - [X] - [TP3](./Cybersécurité/TP3) (?/15)
-- [X] - Examen 2 (?/30)
+- [X] - Examen 2 (26,85/30,00)
 
-Total : 50,94/40
+Total : 77,79/85,00
