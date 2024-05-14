@@ -18,7 +18,7 @@ GitHub de l'ensemble de mon Semestre 4 à l'international au Québec à l'UQAC
 - [X] - [Série 10](./Calcul%20Avancé/Remise/Série%2010.pdf) (1/1)
 - [X] - Examen 3 (17,7/30)
 
-Total : 77,05/100,00
+Total : 77,05/100,00 -> 🅱-
 
 ## Introduction aux bases de données - 8TRD151
 - [X] - [TP 1](./Intro%20DB/TP1) (9,10/10)
@@ -29,7 +29,7 @@ Total : 77,05/100,00
 - [X] - Examen 2 (20,25/25,00)
 - [X] - [Projet Final](https://github.com/FireGh0st/IntroSQLProJUQAC) (18,60/20,00)
 
-Total : 88,30/100,00
+Total : 88,30/100,00 -> 🅰-
 
 ## Programmation orientée objet - 8PRO128
 - Cours
@@ -56,7 +56,7 @@ Total : 88,30/100,00
 - [X] - Examen 2 (17/20)
 - [X] - [Projet Final](https://github.com/Apirss/Projet-POO) (30/30)
 
-Total : 90,25/100,00
+Total : 90,25/100,00 -> 🅰
 
 ## Informatique mobile - 8INF257
 - [X] - [TD 1](./Info%20Mobile/HelloDroide)
@@ -68,7 +68,7 @@ Total : 90,25/100,00
 - [X] - Synopsis Projet (5/5)
 - [X] - [Projet Final](https://github.com/Apirss/Projet-InfoMob) (23,75/25,00)
 
-Total : 87,66/100,00
+Total : 87,66/100,00 -> 🅰
 
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
 - [X] - [TP1](./Cybersécurité/TP1) (14,19/15)
@@ -77,4 +77,4 @@ Total : 87,66/100,00
 - [X] - [TP3](./Cybersécurité/TP3) (13,50/15,00)
 - [X] - Examen 2 (26,85/30,00)
 
-Total : 91,29/100,00
+Total : 91,29/100,00 -> 🅰
