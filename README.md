@@ -66,15 +66,15 @@ Total : 90,25/100,00
 - [X] - [TP 3](./Info%20Mobile/Mafag) (5,00/5,00)
 - [X] - Examen 2 (18,57/20,00)
 - [X] - Synopsis Projet (5/5)
-- [X] - [Projet Final](https://github.com/Apirss/Projet-InfoMob) (?/25)
+- [X] - [Projet Final](https://github.com/Apirss/Projet-InfoMob) (23,75/25,00)
 
-Total : 63,91/75,00
+Total : 87,66/100,00
 
 ## Cybersécurité défensive : vulnérabilités et incidents - 8SEC201
 - [X] - [TP1](./Cybersécurité/TP1) (14,19/15)
 - [X] - Examen 1 (21,75/25)
 - [X] - [TP2](./Cybersécurité/TP2) (15/15)
-- [X] - [TP3](./Cybersécurité/TP3) (?/15)
+- [X] - [TP3](./Cybersécurité/TP3) (13,50/15,00)
 - [X] - Examen 2 (26,85/30,00)
 
-Total : 77,79/85,00
+Total : 91,29/100,00
